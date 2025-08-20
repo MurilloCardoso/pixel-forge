@@ -5,9 +5,10 @@ O objetivo é criar uma ferramenta interativa para geração de sprites de perso
 
 # Primeiros Testes - Sem CLIP - SEM GIF
 
-Epoch = 500 , Dataset = 1000
+
 ![This is an alt text.](https://github.com/MurilloCardoso/pixel-forge/blob/main/pixel/scripts/generated/epoch_500.png?raw=true  "This is a sample image.")
 
+### Epoch = 500 , Dataset = 1000
 ## ⚡ Funcionalidades
 
 - Geração de sprites 32x32 em estilo pixel art.
