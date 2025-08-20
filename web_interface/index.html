@@ -1,0 +1,11 @@
+<button id="generateBtn">Gerar Sprite</button>
+<img id="spriteImg" src="" alt="Sprite" />
+
+<script>
+  const btn = document.getElementById('generateBtn');
+  const img = document.getElementById('spriteImg');
+
+  btn.onclick = () => {
+    img.src = '/generate?' + new Date().getTime(); // evita cache
+  }
+</script>
