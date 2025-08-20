@@ -5,7 +5,8 @@ O objetivo é criar uma ferramenta interativa para geração de sprites de perso
 
 # Primeiros Testes - Sem CLIP - SEM GIF
 
-![FirstTeste1]([/image/sample.webp](https://github.com/MurilloCardoso/pixel-forge/blob/main/pixel/scripts/generated/epoch_500.png) "This is a sample image.")
+Epoch = 500 , Dataset = 1000
+![This is an alt text.](https://github.com/MurilloCardoso/pixel-forge/blob/main/pixel/scripts/generated/epoch_500.png?raw=true  "This is a sample image.")
 
 ## ⚡ Funcionalidades
 
