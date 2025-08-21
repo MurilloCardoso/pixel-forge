@@ -1,42 +1,34 @@
-🎮 PixelSpriteGAN (Early Stage)
+# 🎮 PixelSpriteGAN (Early Stage)
 
-PixelSpriteGAN is an early-stage AI project that generates 32x32 pixel art character sprites using a simple GAN trained with PyTorch.
+PixelSpriteGAN is an early-stage AI project that generates **32x32 pixel art character sprites** using a simple GAN trained with PyTorch.  
 The goal is to build an interactive tool for creating character sprites for portfolios, game prototypes, and generative AI demos.
 
-⚡ Features
+## ⚡ Features
 
-Generate 32x32 pixel art sprites.
+- Generate **32x32 pixel art sprites**.
+- Supports multiple character classes (e.g., fighter, mage, archer).
+- Simple web interface (optional).
+- Fully implemented in **PyTorch**.
 
-Supports multiple character classes (fighter, mage, archer, etc.).
+## 🚀 Usage
 
-Simple web interface (optional).
+1. Add **32x32 sprites** to the `dataset/` directory.
+2. Train the GAN:
+    ```bash
+    python train_gan.py
+    ```
+3. Generate new sprites:
+    ```bash
+    python generate_sprites.py
+    ```
+4. (Optional) Run the web interface with **FastAPI**.
 
-Fully implemented in PyTorch.
+## 📌 Notes
 
-🚀 Usage
+- This project is for **study and experimentation**, not production.
+- Sprite quality depends on **dataset size and diversity**.
 
-Add 32x32 sprites to dataset/.
+## 🔗 References
 
-Train the GAN:
-
-python train_gan.py
-
-
-Generate new sprites:
-
-python generate_sprites.py
-
-
-(Optional) Run the web interface with FastAPI.
-
-📌 Notes
-
-Project is for study and experimentation, not production.
-
-Sprite quality depends on dataset size and diversity.
-
-🔗 References
-
-PyTorch GAN Tutorial
-
-OpenGameArt – Pixel Art Dataset
+- [PyTorch GAN Tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
+- [OpenGameArt – Pixel Art Dataset](https://opengameart.org/)
