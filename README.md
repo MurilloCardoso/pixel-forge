@@ -3,6 +3,8 @@
 PixelSpriteGAN is an early-stage AI project that generates **32x32 pixel art character sprites** using a simple GAN trained with PyTorch.  
 The goal is to build an interactive tool for creating character sprites for portfolios, game prototypes, and generative AI demos.
 
+![This is an alt text.](https://github.com/MurilloCardoso/pixel-forge/blob/main/pixel/scripts/generated/epoch_500.png?raw=true "This is a sample image.")
+
 ## ⚡ Features
 
 - Generate **32x32 pixel art sprites**.
